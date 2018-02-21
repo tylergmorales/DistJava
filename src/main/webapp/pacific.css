@@ -1,0 +1,190 @@
+.desktop { display: inline; }
+.mobile { display: none; }
+header { color: white; 
+	background-color: #E2CFBF; 
+	background-repeat: no-repeat; 
+	background-position: right;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px; } 
+body { color: #666666;
+	background-color: #4F4B64; 
+	background-image: linear-gradient(to bottom, #4F4B64, #E2CFBF);
+	background-repeat: no-repeat;
+	font-family: "Helvetica", serif; }
+nav { font-weight: bold; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left; }
+nav a { text-decoration: none; }
+main { display: block;
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	padding-top: 1px; 
+	padding-right: 20px; 
+	padding-bottom: 20px; 
+	padding-left: 30px;
+	display: block; }
+h2 { color: #4F4B64;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 0px #CCCCCC; }
+dt { color: #000033 }
+.resort { color: #4F4B64; 
+	font-weight: bold; }
+h1 { margin-bottom: 0; 
+	font-family: Georgia, "Times New Roman", serif;
+	margin-top: 0px;
+	color: #4F4B64; }
+h3 { font-family: Georgia, "Times New Roman", serif; 
+	color: #000033; }
+ul { list-style-image: url(marker.gif); }
+main ul { }
+nav ul { list-style-image: none;
+	list-style-type: none;
+	margin: 0px; 
+	padding-left: 20px; 
+	font-size: 1.2em; }
+a:link { color: #92929C; }
+a:visited { color: #344873; }
+a:hover { color: #FFFFFF; }
+footer { font-size: 75%;
+	font-style: italic;
+	text-align: center; 
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 20px;
+	margin-left: 190px; 
+	background-color: #FFFFFF;
+	float: none; }
+.contact { font-size: 90%; }
+.wrapper { margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: #546491; 
+	min-width: 960px; 
+	max-width: 2048px;
+	box-shadow: 3px 3px 0px #333333; }
+.homehero { height: 400px; 
+	background-image: url(images/capitalbuilding1.jpg); 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	margin-left: 190px; }
+.yurthero { height: 400px; 
+	background-image: url(images/nightlandscape1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px; }
+.trailhero { height: 400px; 
+	background-image: url(images/capitollandscape1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	margin-left: 190px; }
+.reservationpic { height: 400px; 
+	background-image: url(images/madisonlandscape1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	margin-left: 190px; }
+table { border: 1px; 
+	width: 80%; 
+	border-spacing: 0; }
+table td { padding: 5px; 
+	border: 1px solid #3399CC; }
+table th { padding: 5px; 
+	border: 1px solid #3399CC; }
+td { text-align: center; }
+.text { text-align: left; }
+label { float: left; 
+	display: block; 
+	text-align: right; 
+	width: 120px; 
+	padding-right: 10px; }
+input { display: block; 
+	margin-bottom: 20px; }
+textarea { display: block;
+	margin-bottom: 20px; }
+input[type="submit"] { margin-left: 130px; }
+video, embed { float: right;
+	padding-left: 20px; }
+.gallery { height: 200px;  
+	position: relative; }
+.gallery ul { list-style: none; 
+	list-style-type: none; 
+	width: 300px;
+	height: 200px; }
+.gallery li { display: inline; 
+	float: left;
+	padding: 10px; }
+figure { position: absolute; 
+	left: 280px;
+	text-align: center;
+	opacity: .25; }
+.gallery a { text-decoration: none;
+	font-style: italic;
+	color: #000000; 
+	list-style: none; }
+.gallery span { position: absolute;
+	left: -1000px; 
+	opacity: 0;
+	transition: opacity 3s ease-in-out;
+	text-align: center; }
+.gallery a:hover span { position: absolute;
+	top: 16px;
+	left: 320px;
+	opacity: 1; }
+@media only screen and (max-width: 64em)
+{
+	body { margin: 0;
+		background-color: #FFFFFF; }
+	.wrapper { min-width: 0; 
+		width: auto; 
+		box-shadow: none; }
+	main { margin-left: 0; }
+	nav { float: none; 
+		width: auto;
+		padding: .5em; 
+		text-align: center; }
+	nav li { display: inline;
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+		padding-right: 0.75em; }
+	.homehero { margin-left: 0;
+		height: 200px; }
+	.yurthero { margin-left: 0;
+		height: 200px; }
+	.trailhero { margin-left: 0;
+		height: 200px; }
+	footer { margin-left: 0; }
+}
+@media only screen and (max-width: 37.5em)
+{
+	header { padding-top: 1em; }
+	main { padding-top: 0.1em; 
+		padding-bottom: 0.1em; 
+		padding-left: 1em;
+		padding-right: 1em; 
+		font-size: 90%; }
+	h1 { font-size: 1.5em; }
+	nav { padding: 0;}
+	nav li { display: block; 
+		margin: 0; 
+		border-bottom: 2px solid #330000; }
+	nav ul { padding-left: 0px; }
+	nav a { display: block; }
+	.homehero { background-image: none;
+		height: 0; }
+	.yurthero  { background-image: none;
+		height: 0; }
+	.trailhero { background-image: none;
+		height: 0; }
+	.mobile { display: inline; }
+	.desktop { display: none; }
+	label { float: none;
+		text-align: left; }
+	input [type="submit"] { margin-left: 0; }
+	#gallery { display: none; }
+}
+
+
+
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {display: block; }
