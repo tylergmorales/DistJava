@@ -24,7 +24,7 @@ http://html5shim.googlecode.com/svn/trunk/html5.js">
 	<ul>
 		<li><a href="index.jsp"><b>Home</b></a></li>
 		<li><a href="products.jsp"><b>Products</b></a></li>
-		<li><a href="madison.jsp"><b>Madison</b></a></li>
+		<li><a href="shoppingcart.jsp"><b>Shopping Cart</b></a></li>
 		<li><a href="reservations.jsp"><b>Reservations</b></a></li>
 	</ul>
 	</nav>

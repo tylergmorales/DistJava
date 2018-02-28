@@ -6,7 +6,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>
-	Vacation Wisconsin :: Madison
+	Shopping Cart
 	</title>
 	<link rel="stylesheet" href="pacific.css">
 	</head>
@@ -18,7 +18,7 @@
 	<ul>
 		<li><a href="index.jsp"><b>Home</b></a></li>
 		<li><a href="products.jsp"><b>Products</b></a></li>
-		<li><a href="madison.jsp"><b>Madison</b></a></li>
+		<li><a href="shoppingcart.jsp"><b>Shopping Cart</b></a></li>
 		<li><a href="reservations.jsp"><b>Reservations</b></a></li>
 	</ul>
 	</nav>
