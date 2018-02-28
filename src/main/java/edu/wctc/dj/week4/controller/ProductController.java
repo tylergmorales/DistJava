@@ -46,7 +46,7 @@ public class ProductController extends HttpServlet {
 			Product product = productService.getProduct(id);
 			request.setAttribute("name", product);
 			dispatcher =
-				request.getRequestDispatcher("/nameDetail.jsp");
+				request.getRequestDispatcher("/productDetail.jsp");
 		} else if (search != null) {
 			List<Product> productList = productService.findProduct(search);
 			request.setAttribute("productList", productList);
