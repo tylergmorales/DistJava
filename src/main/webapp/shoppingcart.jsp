@@ -26,17 +26,10 @@
 	</div>
 	<main>
 	<body>
-	<h2>Madison</h2>
-		<dt>Where is Madison</dt>
-		<dd>Madison is the capital city of Wisconsin. It is located in the south-central<br>
-			area of the state, in the middle of Dane county. The city touches Lake Mendota<br>
-			and Lake Monona.</dd>		
-		<dt>How big is the city?</dt>
-		<dd>Madison covers almost 85 square miles and is home to almost 250,000 people.</dd>
-		<dt>What are the attractions?</dt>
-		<dd>Madison is home to thousands of excellent places to sit down and dine, and also<br>
-			numerous places to get together and have some drinks. The many concert halls<br>
-			always have a fun show to watch!
+	<h2>Cart</h2>
+        <table>
+            
+        </table>
 	</body>
 	</main>
 	<footer>

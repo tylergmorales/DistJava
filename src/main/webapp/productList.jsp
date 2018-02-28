@@ -42,7 +42,7 @@
 			<tr>
                             <td><c:out value="${product.name}"/></td>
                             <td><a href="?id=<c:out value="${product.id}"/>"><c:out value ="${product.cost}"/></a></td>
-                            <td><input type="number" name="quantity" value="0"/><input type="submit" name="add" value="Add to Cart"/>
+                            <td><input type="number" name="quantity" value="0" style="display: inline"/><input type="submit" name="add" value="Add to Cart" style="display: inline"/>
 			</tr>
                     </c:forEach>
 		</table>
