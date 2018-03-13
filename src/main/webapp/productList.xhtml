@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+
+	
+		<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>
+	Product Search
+	</title>
+	<!--<link rel="stylesheet" href="pacific.css"> -->
+    </h:head>
+	<div class="wrapper">
+	<header>
+		<h1>Products</h1>
+	</header>
+	<nav>
+	<ul>
+		<li><a href="index.jsp"><b>Home</b></a></li>
+		<li><a href="products.jsp"><b>Products</b></a></li>
+		<li><a href="shoppingcart.jsp"><b>Shopping Cart</b></a></li>
+		<li><a href="reservations.jsp"><b>Reservations</b></a></li>
+	</ul>
+	</nav>
+	<div class="yurthero">
+	</div>
+	<main>
+	<h:body>
+            <br>
+            <h1>Search!</h1><br><br>
+		<h:form>
+                    <p:dataTable value="#{productBean.productList}" var="name" rowKey="#{product.id}" selection="#{productBean.product}" selectionMode="single"
+                                <f:ajax event="rowSelect" listener="#{productBean.productDetail}" />
+                                <p:column>
+                                    <h:outputText value="#{product.product}"/>
+                                </p:column>
+                    </p:dataTable>
+		</h:form>	
+	<br>		
+	</main>
+
+	</h:body>
+	<footer>
+		Copyright  &copy; Vacation Wisconsin<br>
+		<a href="mailto:yourfirstname@yourlastname.com"><i>yourfirstname@yourlastname.com</a>
+	</footer>
+	</div>
